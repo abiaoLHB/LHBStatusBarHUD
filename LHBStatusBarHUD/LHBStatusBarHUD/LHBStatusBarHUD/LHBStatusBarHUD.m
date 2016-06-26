@@ -31,7 +31,7 @@ static CGFloat const LHBAnimationDuration = 0.25;
  
  2、编辑README.md信息
     a、可以在本地编辑。保存＋提交＋push
-    b、也可以在线编辑
+    b、也可以在线编辑。编辑后本地要pull一下
  
  3、将框架传到cocoaPods服务器
  */
