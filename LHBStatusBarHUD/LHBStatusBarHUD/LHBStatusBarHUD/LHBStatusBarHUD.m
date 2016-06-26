@@ -30,10 +30,67 @@ static CGFloat const LHBAnimationDuration = 0.25;
     c、clone下来github的空仓库，把框架拖到仓库中，commit、push
  
  2、编辑README.md信息
-    a、可以在本地编辑。保存＋提交＋push
+    a、可以在本地编辑。保存＋提交＋push（最好本地改）
     b、也可以在线编辑。编辑后本地要pull一下
- 
+ 3、github上看评论issues，别人的问题
+    可以@谁回复谁，也可以｀｀｀｀｀｀objc回复，谁发起的问题，谁和我有权关闭问题
+ 4、别人提交的代码Pull requests
+     别人提交的代码，你有权利要不要整合到你的代码中去
  3、将框架传到cocoaPods服务器
+     利用pod trunk发布程序
+     注册
+     pod trunk register 邮箱 '用户名' --description='电脑描述'
+    pod trunk register 903803342@qq.com 'LHB' --description='The mac is LHB MacBookPro'
+     查收邮件
+     如果是QQ邮箱，可能会被放到“垃圾箱”中，并不一定是“收件箱”
+     点击邮件中的链接： https://trunk.cocoapods.org/sessions/verify/xxxx
+     接下来查看个人信息
+     pod trunk me
+     - Name:     MJ Lee
+     - Email:    xxxxxx@qq.com
+     - Since:    January 28th, 03:53
+     - Pods:     None
+     - Sessions:
+     - January 28th, 04:28 - June 5th, 04:34. IP: xxx.xxx.xxx.xxx Description: Macbook Pro
+     中间可能遇到这种错误
+     NoMethodError - undefined method 'last' for #<Netrc::Entry:0x007fc59c246378>
+     这时候需要尝试更新gem源或者pod
+     sudo gem update --system
+     sudo gem install cocoapods
+     sudo gem install cocospods-trunk
+     创建podspec文件
+     接下来需要在项目根路径创建一个podspec文件来描述你的项目信息
+     pod spec cretae 文件名
+     比如pod spec cretae MJExtension就会生成一个MJExtension.podspec
+     填写podspec内容
+     Pod::Spec.new do |s|
+     s.name         = "MJExtension"
+     s.version      = "0.0.1"
+     s.summary      = "The fastest and most convenient conversion between JSON and model"
+     s.homepage     = "https://github.com/CoderMJLee/MJExtension"
+     s.license      = "MIT"
+     s.author             = { "MJLee" => "xxxxx@qq.com" }
+     s.social_media_url   = "http://weibo.com/exceptions"
+     s.source       = { :git => "https://github.com/CoderMJLee/MJExtension.git", :tag => s.version }
+     s.source_files  = "MJExtensionExample/MJExtensionExample/MJExtension"
+     s.requires_arc = true
+     end
+     值得注意的是，现在的podspec必须有tag，所以最好先打个tag，传到github
+     git tag 0.0.1
+     git push --tags
+     检测podspec语法
+     pod spec lint MJExtension.podspec
+     发布podspec
+     pod trunk push MJExtension.podspec
+     如果是第一次发布pod，需要去https://trunk.cocoapods.org/claims/new认领pod
+     检测
+     pod setup : 初始化
+     pod repo update : 更新仓库
+     pod search MJExtension
+     仓库更新
+     如果仓库更新慢，可以考虑更换仓库镜像
+     pod repo remove master
+     pod repo add master http://git.oschina.net/akuandev/Specs.git
  */
 
 @implementation LHBStatusBarHUD

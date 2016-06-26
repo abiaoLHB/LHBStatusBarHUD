@@ -16,7 +16,3 @@
 ```objc
     [LHBStatusBarHUD LHB_showLoading:@"正在加载"];
 ```
-##
-```objc
-在线编辑后，本地要pull
-```
