@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF26C6821D1F906000FBF8F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C6811D1F906000FBF8F0 /* main.m */; };
+		EF26C6851D1F906000FBF8F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C6841D1F906000FBF8F0 /* AppDelegate.m */; };
+		EF26C6881D1F906000FBF8F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C6871D1F906000FBF8F0 /* ViewController.m */; };
+		EF26C68B1D1F906000FBF8F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26C6891D1F906000FBF8F0 /* Main.storyboard */; };
+		EF26C68D1D1F906000FBF8F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF26C68C1D1F906000FBF8F0 /* Assets.xcassets */; };
+		EF26C6901D1F906000FBF8F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF26C68E1D1F906000FBF8F0 /* LaunchScreen.storyboard */; };
+		EF26C69B1D1F906100FBF8F0 /* LHBStatusBarHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C69A1D1F906100FBF8F0 /* LHBStatusBarHUDTests.m */; };
+		EF26C6A61D1F906100FBF8F0 /* LHBStatusBarHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C6A51D1F906100FBF8F0 /* LHBStatusBarHUDUITests.m */; };
+		EF26C6C11D201D3E00FBF8F0 /* LHBStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EF26C6BD1D201D3E00FBF8F0 /* LHBStatusBarHUD.m */; };
+		EF26C70E1D201FA500FBF8F0 /* LHBStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EF26C70D1D201FA500FBF8F0 /* LHBStatusBarHUD.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF26C6971D1F906100FBF8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF26C6751D1F906000FBF8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF26C67C1D1F906000FBF8F0;
+			remoteInfo = LHBStatusBarHUD;
+		};
+		EF26C6A21D1F906100FBF8F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF26C6751D1F906000FBF8F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF26C67C1D1F906000FBF8F0;
+			remoteInfo = LHBStatusBarHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF26C67D1D1F906000FBF8F0 /* LHBStatusBarHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LHBStatusBarHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF26C6811D1F906000FBF8F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF26C6831D1F906000FBF8F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF26C6841D1F906000FBF8F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF26C6861D1F906000FBF8F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF26C6871D1F906000FBF8F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF26C68A1D1F906000FBF8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF26C68C1D1F906000FBF8F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF26C68F1D1F906000FBF8F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF26C6911D1F906000FBF8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26C6961D1F906100FBF8F0 /* LHBStatusBarHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHBStatusBarHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF26C69A1D1F906100FBF8F0 /* LHBStatusBarHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHBStatusBarHUDTests.m; sourceTree = "<group>"; };
+		EF26C69C1D1F906100FBF8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26C6A11D1F906100FBF8F0 /* LHBStatusBarHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LHBStatusBarHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF26C6A51D1F906100FBF8F0 /* LHBStatusBarHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHBStatusBarHUDUITests.m; sourceTree = "<group>"; };
+		EF26C6A71D1F906100FBF8F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF26C6BC1D201D3E00FBF8F0 /* LHBStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LHBStatusBarHUD.h; sourceTree = "<group>"; };
+		EF26C6BD1D201D3E00FBF8F0 /* LHBStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LHBStatusBarHUD.m; sourceTree = "<group>"; };
+		EF26C70D1D201FA500FBF8F0 /* LHBStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LHBStatusBarHUD.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF26C67A1D1F906000FBF8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C6931D1F906100FBF8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C69E1D1F906100FBF8F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF26C6741D1F906000FBF8F0 = {
+			isa = PBXGroup;
+			children = (
+				EF26C67F1D1F906000FBF8F0 /* LHBStatusBarHUD */,
+				EF26C6991D1F906100FBF8F0 /* LHBStatusBarHUDTests */,
+				EF26C6A41D1F906100FBF8F0 /* LHBStatusBarHUDUITests */,
+				EF26C67E1D1F906000FBF8F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF26C67E1D1F906000FBF8F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C67D1D1F906000FBF8F0 /* LHBStatusBarHUD.app */,
+				EF26C6961D1F906100FBF8F0 /* LHBStatusBarHUDTests.xctest */,
+				EF26C6A11D1F906100FBF8F0 /* LHBStatusBarHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF26C67F1D1F906000FBF8F0 /* LHBStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C6BA1D201D3E00FBF8F0 /* LHBStatusBarHUD */,
+				EF26C6831D1F906000FBF8F0 /* AppDelegate.h */,
+				EF26C6841D1F906000FBF8F0 /* AppDelegate.m */,
+				EF26C6861D1F906000FBF8F0 /* ViewController.h */,
+				EF26C6871D1F906000FBF8F0 /* ViewController.m */,
+				EF26C6891D1F906000FBF8F0 /* Main.storyboard */,
+				EF26C68C1D1F906000FBF8F0 /* Assets.xcassets */,
+				EF26C68E1D1F906000FBF8F0 /* LaunchScreen.storyboard */,
+				EF26C6911D1F906000FBF8F0 /* Info.plist */,
+				EF26C6801D1F906000FBF8F0 /* Supporting Files */,
+			);
+			path = LHBStatusBarHUD;
+			sourceTree = "<group>";
+		};
+		EF26C6801D1F906000FBF8F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C6811D1F906000FBF8F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF26C6991D1F906100FBF8F0 /* LHBStatusBarHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C69A1D1F906100FBF8F0 /* LHBStatusBarHUDTests.m */,
+				EF26C69C1D1F906100FBF8F0 /* Info.plist */,
+			);
+			path = LHBStatusBarHUDTests;
+			sourceTree = "<group>";
+		};
+		EF26C6A41D1F906100FBF8F0 /* LHBStatusBarHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C6A51D1F906100FBF8F0 /* LHBStatusBarHUDUITests.m */,
+				EF26C6A71D1F906100FBF8F0 /* Info.plist */,
+			);
+			path = LHBStatusBarHUDUITests;
+			sourceTree = "<group>";
+		};
+		EF26C6BA1D201D3E00FBF8F0 /* LHBStatusBarHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EF26C70D1D201FA500FBF8F0 /* LHBStatusBarHUD.bundle */,
+				EF26C6BC1D201D3E00FBF8F0 /* LHBStatusBarHUD.h */,
+				EF26C6BD1D201D3E00FBF8F0 /* LHBStatusBarHUD.m */,
+			);
+			path = LHBStatusBarHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF26C67C1D1F906000FBF8F0 /* LHBStatusBarHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF26C6AA1D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUD" */;
+			buildPhases = (
+				EF26C6791D1F906000FBF8F0 /* Sources */,
+				EF26C67A1D1F906000FBF8F0 /* Frameworks */,
+				EF26C67B1D1F906000FBF8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LHBStatusBarHUD;
+			productName = LHBStatusBarHUD;
+			productReference = EF26C67D1D1F906000FBF8F0 /* LHBStatusBarHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF26C6951D1F906100FBF8F0 /* LHBStatusBarHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF26C6AD1D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUDTests" */;
+			buildPhases = (
+				EF26C6921D1F906100FBF8F0 /* Sources */,
+				EF26C6931D1F906100FBF8F0 /* Frameworks */,
+				EF26C6941D1F906100FBF8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF26C6981D1F906100FBF8F0 /* PBXTargetDependency */,
+			);
+			name = LHBStatusBarHUDTests;
+			productName = LHBStatusBarHUDTests;
+			productReference = EF26C6961D1F906100FBF8F0 /* LHBStatusBarHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF26C6A01D1F906100FBF8F0 /* LHBStatusBarHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF26C6B01D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUDUITests" */;
+			buildPhases = (
+				EF26C69D1D1F906100FBF8F0 /* Sources */,
+				EF26C69E1D1F906100FBF8F0 /* Frameworks */,
+				EF26C69F1D1F906100FBF8F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF26C6A31D1F906100FBF8F0 /* PBXTargetDependency */,
+			);
+			name = LHBStatusBarHUDUITests;
+			productName = LHBStatusBarHUDUITests;
+			productReference = EF26C6A11D1F906100FBF8F0 /* LHBStatusBarHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF26C6751D1F906000FBF8F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LHB;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LHB;
+				TargetAttributes = {
+					EF26C67C1D1F906000FBF8F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52GUR5R28T;
+					};
+					EF26C6951D1F906100FBF8F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52GUR5R28T;
+						TestTargetID = EF26C67C1D1F906000FBF8F0;
+					};
+					EF26C6A01D1F906100FBF8F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 52GUR5R28T;
+						TestTargetID = EF26C67C1D1F906000FBF8F0;
+					};
+				};
+			};
+			buildConfigurationList = EF26C6781D1F906000FBF8F0 /* Build configuration list for PBXProject "LHBStatusBarHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF26C6741D1F906000FBF8F0;
+			productRefGroup = EF26C67E1D1F906000FBF8F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF26C67C1D1F906000FBF8F0 /* LHBStatusBarHUD */,
+				EF26C6951D1F906100FBF8F0 /* LHBStatusBarHUDTests */,
+				EF26C6A01D1F906100FBF8F0 /* LHBStatusBarHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF26C67B1D1F906000FBF8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26C6901D1F906000FBF8F0 /* LaunchScreen.storyboard in Resources */,
+				EF26C68D1D1F906000FBF8F0 /* Assets.xcassets in Resources */,
+				EF26C70E1D201FA500FBF8F0 /* LHBStatusBarHUD.bundle in Resources */,
+				EF26C68B1D1F906000FBF8F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C6941D1F906100FBF8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C69F1D1F906100FBF8F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF26C6791D1F906000FBF8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26C6C11D201D3E00FBF8F0 /* LHBStatusBarHUD.m in Sources */,
+				EF26C6881D1F906000FBF8F0 /* ViewController.m in Sources */,
+				EF26C6851D1F906000FBF8F0 /* AppDelegate.m in Sources */,
+				EF26C6821D1F906000FBF8F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C6921D1F906100FBF8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26C69B1D1F906100FBF8F0 /* LHBStatusBarHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF26C69D1D1F906100FBF8F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26C6A61D1F906100FBF8F0 /* LHBStatusBarHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF26C6981D1F906100FBF8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF26C67C1D1F906000FBF8F0 /* LHBStatusBarHUD */;
+			targetProxy = EF26C6971D1F906100FBF8F0 /* PBXContainerItemProxy */;
+		};
+		EF26C6A31D1F906100FBF8F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF26C67C1D1F906000FBF8F0 /* LHBStatusBarHUD */;
+			targetProxy = EF26C6A21D1F906100FBF8F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF26C6891D1F906000FBF8F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF26C68A1D1F906000FBF8F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF26C68E1D1F906000FBF8F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF26C68F1D1F906000FBF8F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF26C6A81D1F906100FBF8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF26C6A91D1F906100FBF8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF26C6AB1D1F906100FBF8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHBStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF26C6AC1D1F906100FBF8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LHBStatusBarHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF26C6AE1D1F906100FBF8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHBStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHBStatusBarHUD.app/LHBStatusBarHUD";
+			};
+			name = Debug;
+		};
+		EF26C6AF1D1F906100FBF8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LHBStatusBarHUDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LHBStatusBarHUD.app/LHBStatusBarHUD";
+			};
+			name = Release;
+		};
+		EF26C6B11D1F906100FBF8F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHBStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHBStatusBarHUD;
+			};
+			name = Debug;
+		};
+		EF26C6B21D1F906100FBF8F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LHBStatusBarHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lhb.company.LHBStatusBarHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LHBStatusBarHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF26C6781D1F906000FBF8F0 /* Build configuration list for PBXProject "LHBStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26C6A81D1F906100FBF8F0 /* Debug */,
+				EF26C6A91D1F906100FBF8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF26C6AA1D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26C6AB1D1F906100FBF8F0 /* Debug */,
+				EF26C6AC1D1F906100FBF8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF26C6AD1D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26C6AE1D1F906100FBF8F0 /* Debug */,
+				EF26C6AF1D1F906100FBF8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF26C6B01D1F906100FBF8F0 /* Build configuration list for PBXNativeTarget "LHBStatusBarHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26C6B11D1F906100FBF8F0 /* Debug */,
+				EF26C6B21D1F906100FBF8F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF26C6751D1F906000FBF8F0 /* Project object */;
+}
