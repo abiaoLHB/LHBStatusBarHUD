@@ -60,7 +60,7 @@ static CGFloat const LHBAnimationDuration = 0.25;
      sudo gem install cocospods-trunk
      创建podspec文件
      接下来需要在项目根路径创建一个podspec文件来描述你的项目信息
-     pod spec cretae 文件名
+     pod spec create 文件名
      比如pod spec cretae MJExtension就会生成一个MJExtension.podspec
      填写podspec内容
      Pod::Spec.new do |s|
