@@ -27,6 +27,13 @@ static CGFloat const LHBAnimationDuration = 0.25;
  1、框架必须在github上面
     a、把框架传到github：新建一个项目（仓库），仓库名字最好和框架名字一样。写一下描述：例如一个比较好用的状态栏指示器
     b、公开，oc、阿帕奇（或者mit，就是别人可以拿到你的代码乱改）
+    c、clone下来github的空仓库，把框架拖到仓库中，commit、push
+ 
+ 2、编辑README.md信息
+    a、可以在本地编辑。保存＋提交＋push
+    b、也可以在线编辑
+ 
+ 3、将框架传到cocoaPods服务器
  */
 
 @implementation LHBStatusBarHUD

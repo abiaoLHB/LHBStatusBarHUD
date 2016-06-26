@@ -23,7 +23,7 @@
 
 - (IBAction)success:(id)sender
 {
-    [LHBStatusBarHUD LHB_showSuccess:@"加载失败"];
+    [LHBStatusBarHUD LHB_showSuccess:@"加载成功"];
 }
 - (IBAction)error:(id)sender
 {
