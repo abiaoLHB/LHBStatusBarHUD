@@ -10,8 +10,6 @@
 
 @interface ViewController : UIViewController
 
-- (void)testShowXXX;
-
 
 @end
 
