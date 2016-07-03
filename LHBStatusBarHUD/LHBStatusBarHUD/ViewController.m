@@ -20,10 +20,7 @@
     
 }
 
-- (void)testShowXXX
-{
-    NSLog(@"测试提交代码到开源库");
-};
+
 
 
 - (IBAction)success:(id)sender
